@@ -1,0 +1,170 @@
+{
+	"name": "Windows 2000",
+	"comment": "Icons from the Windows 2000-era",
+	"example": "example",
+	"mappings": {
+		"iexplore": {
+			"32529": "mimetypes/text-html",
+			"32540": "mimetypes/image-jpeg",
+			"32541": "mimetypes/image-png"
+		},
+		"explorer": {
+			"101": "apps/system-file-manager",
+			"109": "status/dialog-information",
+			"110": "status/dialog-warning",
+			"111": "status/dialog-error"
+		},
+		"shell32": {
+			"1": "mimetypes/application-octet-stream",
+			"3": "mimetypes/application-x-executable",
+			"4": "places/folder",
+			"5": "status/folder-open",
+			"6": "devices/drive-optical",
+			"9": "devices/drive-harddisk",
+			"16": "devices/computer",
+			"18": "places/network-workgroup",
+			"24": "categories/system-help",
+			"29": "emblems/emblem-shared",
+			"28": "actions/system-shutdown",
+			"30": "mimetypes/application-x-ms-shortcut",
+			"32": "places/user-trash",
+			"33": "status/user-trash-full",
+			"35": "places/user-desktop",
+			"151": "mimetypes/application-x-wine-extension-ini",
+			"152": "mimetypes/text-x-generic",
+			"153": "mimetypes/text-x-script",
+			"154": "mimetypes/application-x-msdownload"
+		},
+		"calc": {
+			"SC": "apps/accessories-calculator"
+		},
+		"charmap": {
+			"111": "apps/accessories-character-map"
+		},
+		"cmd": {
+			"IDI_APPICON": "apps/utilities-terminal"
+		},
+		"taskmgr": {
+			"107": "apps/utilities-system-monitor"		
+		},
+		"notepad": {
+			"2": "apps/accessories-text-editor"	
+		},
+		"WINWORD": {
+			"1": "apps/libreoffice-writer",
+			"2": "mimetypes/x-office-document"
+		},
+		"POWERPNT": {
+			"1300": "apps/libreoffice-impress",
+			"1301": "mimetypes/x-office-presentation"
+		},
+		"EXCEL": {
+			"257": "apps/libreoffice-calc",
+			"258": "mimetypes/x-office-spreadsheet",
+			"266": "mimetypes/text-csv"
+		},
+		"netshell": {
+			"190": "status/network-transmit-receive",
+			"191": "status/network-transmit",
+			"192": "status/network-receive",
+			"193": "status/network-idle",
+			"195": "status/network-offline"
+		},
+		"quartz": {
+			"100": "mimetypes/video-x-msvideo",
+			"101": "mimetypes/video-quicktime",
+			"103": "mimetypes/video-mp4",
+			"200": "mimetypes/audio-x-wav",
+			"201": "mimetypes/audio-basic",
+			"202": "mimetypes/audio-aiff",
+			"203": "mimetypes/audio-mpeg",
+			"301": "mimetypes/audio-midi"
+		},
+		"wscript": {
+			"102": "mimetypes/application-javascript"
+		},
+		"mspaint": {
+			"2": "mimetypes/image-bmp"
+		},
+		"hh": {
+			"101": "mimetypes/application-vnd.ms-htmlhelp"
+		},
+		"msiexec": {
+			"1": "mimetypes/application-vnd.debian.binary-package"
+		},
+		"msxml": {
+			"128": "mimetypes/application-xml"
+		},
+		"7z": {
+			"0": "mimetypes/application-x-7z-compressed",
+			"1": "mimetypes/application-zip",
+			"3": "mimetypes/application-vnd.rar",
+			"5": "mimetypes/application-x-compress",
+			"6": "mimetypes/application-x-lzh",
+			"8": "mimetypes/application-x-iso9660-image",
+			"13": "mimetypes/application-x-compressed-tar",
+			"14": "mimetypes/application-gzip",
+			"15": "mimetypes/application-x-ms-wim",
+			"16": "mimetypes/application-x-lzma",
+			"23": "mimetypes/application-x-xz"
+		},
+		"setupapi": {
+			"1": "devices/video-display",
+			"2": "devices/input-mouse",
+			"3": "devices/input-keyboard",
+			"4": "devices/printer",
+			"51": "devices/drive-optical",
+			"53": "devices/drive-harddisk"
+		},
+		"netplwiz": {
+			"102": "apps/system-users"
+		},
+		"gcdef": {
+			"108": "devices/input-gaming"
+		},
+		"mydocs": {
+			"100": "places/folder-documents",
+			"101": "places/folder-pictures"
+		},
+		"sndvol32": {
+			"303": "status/audio-volume-high",
+			"304": "status/audio-volume-muted"
+		},
+		"compstuio": {
+			"6407": "status/dialog-question"
+		},
+		"user32": {
+			"105": "example"
+		}
+	},
+	"sizes": [
+		16,
+		24,
+		32,
+		48,
+		64
+	],
+	"duplicates": {
+		"places/folder": [
+			"places/folder-publicshare",
+			"places/folder-download",
+			"places/folder-music",
+			"places/folder-videos",
+			"places/user-bookmarks",
+			"places/user-saved-search",
+			"places/folder-templates"
+		],
+		"status/audio-volume-high": [
+			"status/audio-volume-low",
+			"status/audio-volume-low-panel",
+			"status/audio-volume-medium",
+			"status/audio-volume-medium-panel",
+			"status/audio-volume-off",
+			"status/audio-volume-zero-panel"
+		],
+		"status/audio-volume-muted": [
+			"status/audio-volume-muted-blocked-panel",
+			"status/audio-volume-muted-panel"
+		]
+	}
+}
