@@ -8,7 +8,7 @@ It's configurable by config files.
 [Project page](https://github.com/Craftplacer/WindowsIconTheme/projects/1)
 
 ### Note about the icon directory
-The tool assumes the files in it were exported using [ResourcesExtractor]() (in other words formatted like `FILE_RESOURCE.ico`).
+The tool assumes the files in it were exported using [ResourcesExtract](https://www.nirsoft.net/utils/resources_extract.html) (in other words formatted like `FILE_RESOURCE.ico`).
 
 ## Configurations
 - [Windows 2000]()
